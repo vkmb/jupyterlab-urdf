@@ -2,6 +2,40 @@
 
 <!-- <START NEW CHANGELOG ENTRY> -->
 
+## 0.2.0
+
+([Full Changelog](https://github.com/ihuicatl/jupyterlab-urdf/compare/v0.1.2...1c83122721711101f1973080b98eb7a359aebb6d))
+
+### Enhancements made
+
+- Add jupyter-rospkg dependency [#23](https://github.com/ihuicatl/jupyterlab-urdf/pull/23) ([@ihuicatl](https://github.com/ihuicatl))
+
+### Documentation improvements
+
+- Update documentation [#24](https://github.com/ihuicatl/jupyterlab-urdf/pull/24) ([@ihuicatl](https://github.com/ihuicatl))
+
+### Contributors to this release
+
+([GitHub contributors page for this release](https://github.com/ihuicatl/jupyterlab-urdf/graphs/contributors?from=2022-07-29&to=2022-09-22&type=c))
+
+[@github-actions](https://github.com/search?q=repo%3Aihuicatl%2Fjupyterlab-urdf+involves%3Agithub-actions+updated%3A2022-07-29..2022-09-22&type=Issues) | [@ihuicatl](https://github.com/search?q=repo%3Aihuicatl%2Fjupyterlab-urdf+involves%3Aihuicatl+updated%3A2022-07-29..2022-09-22&type=Issues)
+
+<!-- <END NEW CHANGELOG ENTRY> -->
+
+## 0.1.2
+
+([Full Changelog](https://github.com/ihuicatl/jupyterlab-urdf/compare/v0.1.1...36b5a10537e1d507d69decc6e39b80b4a20b88e1))
+
+### Bugs fixed
+
+- Fix movement for undefined limits [#17](https://github.com/ihuicatl/jupyterlab-urdf/pull/17) ([@vkmb](https://github.com/vkmb))
+
+### Contributors to this release
+
+([GitHub contributors page for this release](https://github.com/ihuicatl/jupyterlab-urdf/graphs/contributors?from=2022-07-20&to=2022-07-29&type=c))
+
+[@github-actions](https://github.com/search?q=repo%3Aihuicatl%2Fjupyterlab-urdf+involves%3Agithub-actions+updated%3A2022-07-20..2022-07-29&type=Issues) | [@ihuicatl](https://github.com/search?q=repo%3Aihuicatl%2Fjupyterlab-urdf+involves%3Aihuicatl+updated%3A2022-07-20..2022-07-29&type=Issues) | [@vkmb](https://github.com/search?q=repo%3Aihuicatl%2Fjupyterlab-urdf+involves%3Avkmb+updated%3A2022-07-20..2022-07-29&type=Issues)
+
 ## 0.1.1
 
 ([Full Changelog](https://github.com/ihuicatl/jupyterlab-urdf/compare/v0.1.0a0...780dbc0d67539230876d15c3bf1fd9d4dc7e264a))
@@ -25,8 +59,6 @@
 ([GitHub contributors page for this release](https://github.com/ihuicatl/jupyterlab-urdf/graphs/contributors?from=2022-07-06&to=2022-07-20&type=c))
 
 [@github-actions](https://github.com/search?q=repo%3Aihuicatl%2Fjupyterlab-urdf+involves%3Agithub-actions+updated%3A2022-07-06..2022-07-20&type=Issues) | [@ihuicatl](https://github.com/search?q=repo%3Aihuicatl%2Fjupyterlab-urdf+involves%3Aihuicatl+updated%3A2022-07-06..2022-07-20&type=Issues)
-
-<!-- <END NEW CHANGELOG ENTRY> -->
 
 ## 0.1.0a0
 
