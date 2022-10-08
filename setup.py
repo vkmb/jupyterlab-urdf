@@ -39,6 +39,15 @@ version = (
     .replace("-rc.", "rc")
 ) 
 
+rospkg_dependency = "jupyter_rospkg>=0.3"
+try:
+    from jupyter_ros_server import __version__ as jrs_version
+    rospkg_dependency="jupyter_ros_server>=0.2.1"
+    del jrs_version
+except ModuleNotFoundError:
+    # fallback to rospkg
+    pass
+
 setup_args = dict(
     name=name,
     version=version,
@@ -52,7 +61,7 @@ setup_args = dict(
     long_description_content_type="text/markdown",
     packages=setuptools.find_packages(),
     install_requires = [
-        'jupyter_rospkg>=0.3',
+        rospkg_dependency,
     ],
     extras_require = {
         'dev': [
