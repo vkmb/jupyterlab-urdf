@@ -1,6 +1,7 @@
 import { Message } from '@lumino/messaging';
 import { PanelLayout, Widget } from '@lumino/widgets';
 import { ArrayIterator, IIterator } from '@lumino/algorithm';
+import { PageConfig, URLExt } from '@jupyterlab/coreutils';
 
 import ROSLIB from 'roslib';
 import Amphion from 'amphion';
@@ -10,8 +11,11 @@ import dat from 'dat.gui';
 // Modify URLs for the RobotModel:
 //https://github.com/RoboStack/amphion/blob/879045327e879d0bb6fe2c8eac54664de46ef675/src/core/urdf.ts#L22
 DefaultLoadingManager.setURLModifier(url => {
-  console.debug('THREE MANAGER:', url);
-  return '/ros/pkgs' + url;
+  const baseurl = PageConfig.getBaseUrl();
+  const api = "ros/pkgs";
+  const req_url = URLExt.join(baseurl, api, url);
+  console.debug('THREE MANAGER: urljoin', req_url);
+  return req_url;
 });
 
 /**
